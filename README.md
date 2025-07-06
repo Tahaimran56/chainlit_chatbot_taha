@@ -17,5 +17,7 @@ When we initiated our project with UV, it created a default file named main.py. 
 
 chatbot.py
 
-uv run chainlit run main.py -w
-learn-agentic-ai/01_ai_agents_first/06_chatbot/chatbot at main · panaversity/learn-agentic-ai
+Let’s test it with the run command of chainlit:
+
+uv run chainlit run chatbot.py -w
+Note: the -w parameter enables hot reloading when we change our code
